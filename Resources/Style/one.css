@@ -1,0 +1,447 @@
+
+.header {
+    display: flex;  
+    padding: 32px 70px;  
+    justify-content: space-between;
+    } 
+   .logo  {  
+    width: 190px;  
+    height: 30%;
+    display: flex;
+   } 
+   body {  
+   font-family: 'Inter';  
+   font-style: normal;  
+   } 
+   .menu ul {  
+     list-style: none; 
+     margin: 0; padding: 0;  
+     display: flex; 
+     align-items: center; 
+     justify-content: center; height: 90%; 
+     column-gap: 40px;
+   } 
+   .menu ul li a {  
+    text-decoration: none;  
+    color: #333333;  
+   } 
+   .menu ul li {  
+    font-weight: 500;  
+    font-size: 18px;  
+    line-height: 160%; 
+     display: inline-block;  
+   } 
+   .contactBtn a {  
+    display: block; 
+     width: 200px; height: 54px; 
+      text-decoration: none;  
+      color: #FFFFFF;  
+      background: orange;  
+      line-height: 54px;  
+      text-align: center;  
+      font-weight: 500;  
+      font-size: 18px;  
+      border-radius: 4px;  
+    } 
+    .homeContent {  
+     display: flex; 
+     justify-items: stretch;  
+     align-items: center;  
+     margin: 0 5% 100px;
+     margin-left: 300px;  
+     margin-right: 100px;
+    } 
+    .homeText { 
+     width: 50%;  
+    } 
+    .homeText h1 {  
+     font-weight: 700;  
+     font-size: 60px;  
+     line-height: 110%; 
+        letter-spacing: -0.015em;  
+     color: #333333;  
+    } 
+    .homeText p {  
+      font-weight: 400; 
+      font-size: 18px; 
+      line-height: 160%;  
+      color: #333333;  
+   } 
+   .homePhoto {  
+    width: 40%;  
+    height: auto;  
+   } 
+   .homePhoto img {  
+    width: 100%;  
+   }
+
+
+    
+   .homeBtn .start, .homeBtn .more {  
+    
+    display: inline-block;  
+    margin-right: 16px;  
+    width: 200px;  
+    height: 53px;  
+    line-height: 53px;  
+    text-align: center;  
+    text-decoration: none;  
+    background: orange; 
+     border: 1px solid #FFFFFF;  
+     border-radius: 4px;  
+     color: #FFFFFF;  
+     font-weight: 400;  
+     font-size: 18px; 
+    } 
+    .homeBtn .more {  
+     background: #FFFFFF;  
+     color: orangered;  
+     border-color: #0099FF;  
+    } 
+    .services {  
+     background: rgba(0, 153, 255, 0.04); 
+     padding: 120px 80px; text-align: center; 
+       color: #333333;  
+   } 
+   .services .servicesText h6 {  
+    font-weight: 600;  
+    font-size: 20px;  
+    line-height: 130%;  
+    margin-block-start: 0;  
+    margin-block-end: 0;  
+   } 
+   .services .servicesText h2 {  
+    font-weight: 700;  
+    font-size: 48px; 
+    line-height: 138%;  
+   } 
+   .services .servicesText p {  
+    display: inline-block; 
+     width: 612px;  
+     font-weight: 400; 
+      font-size: 16px;  
+      line-height: 156%;  
+      color: #494949;  
+   } 
+    .servicesItems {  
+     display: flex;  
+     gap: 20px;  
+     justify-content: center;  
+     margin-top: 72px;  
+   } 
+   .servicesItems .sItem {  
+    background: #FFFFFF;  
+    border-radius: 8px;  
+    height: 342px; 
+     padding: 0 26px;  
+     position: relative;  
+   }  
+    .servicesItems .sItem a {  
+     position: absolute;  
+     top: 0; bottom: 0;  
+     right: 0; left: 0;  
+   } 
+    .servicesItems .sItem img {  
+     width: 215px;  
+     padding-top: 57px; 
+      padding-bottom: 16px; 
+    } 
+   .servicesItems .sItem h4 {  
+    font-weight: 700;  
+    font-size: 32px;  
+    line-height: 133%;  
+    color: #333333;  
+    margin-block-start: 0; 
+     margin-block-end: 0; 
+   } 
+   .servicesItems .sItem p {  
+    width: 255px;  
+    font-weight: 400;  
+    font-size: 14px;  
+    line-height: 155%;  
+    color: #494949;  
+   }
+   .footer {
+    color: #665;
+    font-size: 120%;
+    padding: 10px; clear : both;
+    text-align: center;
+    }
+    .footer a {
+        color: rgb(0, 0, 0);
+        }
+        .footer a:hover {
+            color: #f00;
+            }
+            .more {  
+  display: inline-block;
+  width: 165px;
+  height: 47px;
+  border: 2px solid #31363c;
+  border-radius: 2px;
+  line-height: 47px;
+  text-align: center;
+  text-decoration: none;
+  color: #31363c ;
+            }
+       .email {
+        text-align: center;
+        background-color: burlywood;
+       }
+      .phone {
+        text-align: center;
+      }
+    .geo {
+      text-align: center;
+      height: 400px;
+     
+    }
+.homeBtn {
+font-size: 16px;
+  text-align: center;
+  padding: 0.5%;
+}
+input::-webkit-input-placeholder {
+  
+  font-style: italic; 
+}
+input:-moz-placeholder {
+  
+  font-style: italic; 
+}
+input:-ms-input-placeholder {
+  
+  font-style: italic; 
+}
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: orange;
+  margin: 1em;
+  padding: 5px 10px;
+  border-width: 0px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+/* Меню бокового бара */
+.sidebar {
+  height: 100%; /* 100% Полный рост */
+  width: 0; /* 0 ширина - измените это с помощью JavaScript */
+  position: fixed; /* Оставаться на месте */
+  z-index: 1; /* Оставайтесь на вершине */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Черный */
+  overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+  padding-top: 60px; /* Поместите содержимое 60px сверху */
+  transition: 0.5s; /* 0.5 секунд эффект перехода для скольжения в боковой панели */
+}
+
+/* На боковой панели */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: flex;
+  transition: 0.3s;
+}
+
+/* При наведении курсора мыши на навигационные ссылки измените их цвет */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Положение и стиль кнопки закрытия (верхний правый угол) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Кнопка для открытия бокового бара */
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Стиль содержимого страницы - используйте это, если вы хотите переместить содержимое страницы вправо при открытии боковой навигации */
+#main {
+  transition: margin-left .5s; /* Если вы хотите эффект перехода */
+  padding:8px;
+}
+
+/* На небольших экранах, где высота меньше 450px, измените стиль sidebar (меньше отступов и меньший размер шрифта) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+
+
+.sidebar1 {
+   position: absolute;
+   width: 8%;
+   background-color: rgb(240, 238, 238);
+   padding:80px 1.0%;
+   height: 100px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   left: 0;
+  
+ }
+
+.sidebar2 {
+   position: absolute;
+   width: 8%;
+   background-color: rgb(240, 238, 238);
+   padding: 17px 2.5%;
+   height: 280px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   right: -4%;
+
+ }
+
+.contact_me {
+  display: flex;
+  margin: 0;
+  padding: 2%;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 500;
+  background-image: linear-gradient(90deg, magenta, darkblue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+} 
+
+.shortcut {
+  margin-top: 22px;
+  line-height: 10px;
+  display:flex;  
+}
+
+.sidebar2 .icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;}
+
+.inst {
+  color: deeppink;
+}
+
+.inst:hover, .inst:focus {  
+  color: darkmagenta;
+  transition: .5s ease;
+  margin-left: 5px;
+  position: relative;
+  outline: none;
+  text-shadow: 0 0 0 fuchsia;
+}
+
+.inst::before {
+  position: absolute;
+  left: -10px;
+  content: "--->";
+  color: transparent;
+  transition: .5s ease;
+}
+
+.sidebar2 .inst:hover {
+  background-color: lightcoral;
+  transition: .8s ease;
+  border-radius: 20px;
+  color: black;}
+
+.sidebar2 .tg:hover {
+  background-color: darkblue;
+  transition: .8s ease;
+  border-radius: 30px;
+  color: white;}
+
+.desc_aside {
+  display: flex;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;}
+
+  .homeBtn {
+  display: flex;
+    width: 200px;
+    height: 54px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: orange;
+    line-height: 54px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px; 
+  }
+.joblogo {
+  width: 20px;
+  height: 20px;
+}
+.hotel {
+  width: 20px;
+  height: 20px;
+}
+.news {
+  width: 20px;
+  height: 20px;
+}
+.blog {
+    width: 20px;
+    height: 20px;
+  }
+  input {
+    width: 40%;
+    display: inline;
+    margin-left: 10%;
+  }
+  
+  @media (min-width:360px) {
+ .header  {
+  width: 90%;
+ }
+ .search {
+  padding: calc(20px+ (50 - 20) * ((100vw - 320px) / (1200-320)))
+ }
+}
+
